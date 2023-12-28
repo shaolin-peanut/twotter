@@ -1,4 +1,24 @@
-# Twotter
-redoing twiter [with this tutorial](https://youtu.be/ZqgiuPt5QZo?si=D6aM4YhYoR45JhHc) to learn vuejs
+# twotter
 
-If you want to learn vuejs [this is quite useful too](https://roadmap.sh/vue)
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
