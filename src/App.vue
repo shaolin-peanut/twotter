@@ -1,36 +1,15 @@
 <template>
   <div id="app">
-    @{{ user.username }} Hello, {{  fullName }}!
+    <UserProfile/>
   </div>
 </template>
 
 <script>
+import UserProfile from "./components/UserProfile.vue"
 
 export default {
   name: 'App',
-  data() {
-    return {
-      followers: 0,
-      user: {
-        id: 1,
-        username: '_MitchelRomney',
-        firstName: 'Mitch',
-        lastName: 'Rom',
-        email: 'mitchelromney@gmail.com',
-        isAdmin: true
-      }
-    }
-  },
-  computed: {
-    fullName() {
-      return `${this.user.firstName} ${this.user.lastName}`
-    }
-  },
-  methods: {
-    followedUser() {
-      this.followers++
-    }
-  }
+  components: { UserProfile }
 }
 </script>
 
@@ -39,8 +18,9 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 </style>
