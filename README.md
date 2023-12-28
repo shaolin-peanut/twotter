@@ -1,5 +1,5 @@
 # twotter
-redoing twiter [with this tutorial](https://www.youtube.com/watch?v=ZqgiuPt5QZo) to learn vuejs
+redoing twiter ui [with this tutorial](https://www.youtube.com/watch?v=ZqgiuPt5QZo) to learn vuejs
 
 If you want to learn vuejs [this is quite useful](https://roadmap.sh/vue)
 ## Project setup
