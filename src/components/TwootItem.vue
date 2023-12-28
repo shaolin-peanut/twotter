@@ -4,7 +4,6 @@
             <div class="twoot-item_user">
                 @{{ username  }}
             </div>
-            </div>
             <div class="twoot-item_content">
                 {{ twoot.content }}
             </div>
